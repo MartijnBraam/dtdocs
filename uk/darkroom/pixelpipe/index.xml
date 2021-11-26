@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>конвеєр обробки on darktable 3.8 user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/</link>
+    <description>Recent content in конвеєр обробки on darktable 3.8 user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>анатомія модуля обробки</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/the-anatomy-of-a-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/the-anatomy-of-a-module/</guid>
+      <description>The basic element of image processing in darktable is the processing module. In order to process a raw image a number of such modules act on the input image in sequence, each performing a different operation on the image data. For those familiar with Adobe Photoshop, the concept of a processing module in darktable is analogous to that of an adjustment layer in that both make an incremental adjustment to the image, building on top of the adjustments that came before.</description>
+    </item>
+    
+    <item>
+      <title>стек історії змін</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/history-stack/</guid>
+      <description>Стек історії зберігає всю історію редагування для даного зображення в тому порядку, в якому були застосовані ці редагування. Він зберігається в базі даних бібліотеки darktable та у файлі XMP зображення та залишається між сеансами редагування.
+Щоразу, коли модуль обробки вмикається, вимикається, переміщується або в нього вносяться зміни, новий запис додається у верхню частину стеку історії.
+Стек історії можна переглядати та змінювати в модулі історія в темній кімнаті.
+ Примітка: Стек історії відображає не порядок, у якому модулі виконуються, а порядок, у якому вони були змінені.</description>
+    </item>
+    
+    <item>
+      <title>скасування і повторення</title>
+      <link>https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/undo-redo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/uk/darkroom/pixelpipe/undo-redo/</guid>
+      <description>Поки ви редагуєте своє зображення, darktable записує всі зміни, які ви вносите в це зображення. Це означає, що можна скасувати та повторити зміни, щоб відновити попередній стан редагування. Зверніть увагу, що можливість скасування/повторення не обмежена кількістю кроків під час редагування зображення, але скидається кожен раз, коли темна кімната перемикається на нове зображення.
+Натисніть Ctrl+Z, щоб скасувати останню модифікацію і Ctrl+Y, щоб відновити останню скасовану модифікацію (якщо така є).</description>
+    </item>
+    
+  </channel>
+</rss>
